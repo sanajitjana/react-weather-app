@@ -50,6 +50,8 @@ const CityComponent = (props) => {
         <input
           onChange={(e) => updateCity(e.target.value)}
           placeholder="City"
+          autoFocus
+          required
         />
         <button type={"submit"}>Search</button>
       </SearchBox>
